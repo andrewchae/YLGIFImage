@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "liyong03" => "liyong03@gmail.com" }
   s.source       = { :git => "https://github.com/liyong03/YLGIFImage.git", :tag => s.version.to_s }
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '7.0'
   s.source_files =  'YLGIFImage'
   s.frameworks   = 'Foundation', 'UIKit', 'MobileCoreServices', 'ImageIO', 'CoreGraphics'
   s.requires_arc = true
